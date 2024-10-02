@@ -1,0 +1,136 @@
+/*BORDA E TELA*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*FUNDO DA TELA*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f1de;
+    color: #333;
+    text-align: center;
+}
+/* COR  */
+header {
+    background-color: #f4f1de;
+    padding: 1rem;
+}
+/* LOGO */
+header .logo h1 {
+    font-size: 24px;
+    color: black;
+    position: relative;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 200px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.shoe-container {
+    
+    position: relative;
+    display: inline-block;
+}
+.valores{
+    background-color: rgb(201, 27, 27);
+    width: 40%;
+}
+.shoe {
+    width: 500px;
+    
+    transform: translate(-120%, 50%); 
+    transform: rotate(335deg);
+}
+
+.color-dots {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    display: flex;
+    gap: 0.5rem;
+    transform: translateY(-50%);
+}
+
+.dot {
+    width: 10%;
+    height: 20px;
+    border-radius: 50%;
+    
+}
+
+.yellow { background-color: #f8e71c; }
+.red { background-color: #d0021b; }
+.black { background-color: #000; }
+
+.explore {
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    bottom: -100%;
+    right: 850px;
+    background-color: #ff6f00;
+    padding: 0.5rem 1rem;
+    border-radius: 40%;
+    font-size: 0.8rem;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20%;
+    height: 3%;
+}
+
+.text-side {
+    max-width: 100%;
+ 
+      
+}
+
+h2 {
+    width: 100%;
+    height: 10%;
+    position: center;
+}
+
+p {
+    width: 100%;
+    height: 70%;
+    position: absolute;
+}
+
+.add-to-bag {
+    background-color: #000;
+    color: rgb(249, 249, 249);
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 30px;
+    position: absolute;
+}
